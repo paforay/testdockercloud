@@ -2,7 +2,7 @@
 
 date_default_timezone_set('Europe/Paris');
 
-echo "oui : " . date("H:i:s");
+echo "Oui : " . date("H:i:s");
 
 $dblink = new PDO('mysql:host=mysqltest;port=3306;dbname=dbtest','paf','mdp');
 
